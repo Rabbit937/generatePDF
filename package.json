@@ -1,0 +1,20 @@
+{
+  "name": "generatepdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.12",
+    "cli-progress": "^3.12.0",
+    "pdf-lib": "^1.17.1",
+    "playwright": "^1.44.0",
+    "puppeteer": "^22.9.0",
+    "request": "^2.88.2"
+  }
+}

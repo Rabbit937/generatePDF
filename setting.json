@@ -1,0 +1,6 @@
+{
+    "playwright": {
+        "chromePathUrl": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+        "chromeUserDataUrl": "C:\\Program Files\\Google\\Chrome\\User Data"
+    }
+}
