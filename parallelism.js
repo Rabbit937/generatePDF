@@ -26,7 +26,7 @@ const generatePdfFromLinks = async (link, outputPath) => {
         const anchors = Array.from(document.querySelectorAll('a'));
         return anchors
             .map(anchor => anchor.href)
-            .filter(href => href.startsWith('https://docs.goosefx.io/'));
+            .filter(href => href.startsWith('https://docs.aethir.com/'));
     });
 
     // 去重
@@ -52,4 +52,6 @@ const generatePdfFromLinks = async (link, outputPath) => {
 }
 
 
-generatePdfFromLinks('https://docs.goosefx.io/', 'goosefx.pdf')
+generatePdfFromLinks('https://docs.aethir.com/', 'aethir.pdf')
+
+
